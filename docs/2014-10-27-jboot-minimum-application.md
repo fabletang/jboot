@@ -45,11 +45,11 @@ public class Application {
 
 *  运行程序
 
-![](../resources/2014-10-27-spring-boot-mini-application/1.jpg)
+![](../resources/2014-10-27-jboot-minimum-application/1.jpg)
 
 *  浏览器访问
 
-![](../resources/2014-10-27-spring-boot-mini-application/2.jpg)
+![](../resources/2014-10-27-jboot-minimum-application/2.jpg)
 
 *  编写单元测试
 ```
@@ -71,7 +71,7 @@ public class MinIntegrationTests {
 
 *  运行单元测试
 
-![](../resources/2014-10-27-spring-boot-mini-application/3.jpg)
+![](../resources/2014-10-27-jboot-minimum-application/3.jpg)
 
 *  打包与发布
   *  在pom.xml中添加plugin
@@ -96,4 +96,4 @@ public class MinIntegrationTests {
   java -jar jboot-minimum-application-0.0.1-SNAPSHOT.jar
   ```
 
-![](../resources/2014-10-27-spring-boot-mini-application/4.jpg)
+![](../resources/2014-10-27-jboot-minimum-application/4.jpg)

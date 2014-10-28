@@ -1,4 +1,4 @@
-#自定义spring-boot应用
+#spring-boot应用的自定义扩展
 
 本文演示了如何自定义一个spring-boot应用，包括Banner、Event、Exit等内容。
 
