@@ -20,5 +20,6 @@
 		<module>jboot-customizing-application</module>
 		<module>jboot-minimum-application</module>
 		<module>jboot-properties-application</module>
+		<module>jboot-logging-application</module>
 	</modules>
 </project>
