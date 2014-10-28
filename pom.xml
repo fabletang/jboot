@@ -19,5 +19,6 @@
 	<modules>
 		<module>jboot-customizing-application</module>
 		<module>jboot-minimum-application</module>
+		<module>jboot-properties-application</module>
 	</modules>
 </project>
