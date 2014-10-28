@@ -21,5 +21,7 @@
 		<module>jboot-minimum-application</module>
 		<module>jboot-properties-application</module>
 		<module>jboot-logging-application</module>
+		<module>jboot-webmvc-application</module>
+		<module>jboot-response-application</module>
 	</modules>
 </project>
