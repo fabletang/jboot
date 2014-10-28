@@ -1,8 +1,10 @@
 package org.lenic.jsamples.springboot.min;
 
 import static org.junit.Assert.*;
+
 import org.junit.Test;
 import org.junit.runner.RunWith;
+import org.lenic.jboot.minimum.Application;
 import org.springframework.boot.test.IntegrationTest;
 import org.springframework.boot.test.SpringApplicationConfiguration;
 import org.springframework.boot.test.TestRestTemplate;

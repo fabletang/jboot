@@ -1,4 +1,4 @@
-package org.lenic.jsamples.springboot.min;
+package org.lenic.jboot.minimum;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
