@@ -1,10 +1,10 @@
-package org.lenic.jsamples.springboot.customizing;
+package org.lenic.jboot.customizing;
 
-import org.lenic.jsamples.springboot.customizing.generator.SuccessExitCodeGenerator;
-import org.lenic.jsamples.springboot.customizing.initializer.ShownApplicationContextInitializer;
-import org.lenic.jsamples.springboot.customizing.listener.ApplicationEnvironmentPreparedListener;
-import org.lenic.jsamples.springboot.customizing.listener.ApplicationPreparedListener;
-import org.lenic.jsamples.springboot.customizing.listener.ApplicationStartedListener;
+import org.lenic.jboot.customizing.generator.SuccessExitCodeGenerator;
+import org.lenic.jboot.customizing.initializer.ShownApplicationContextInitializer;
+import org.lenic.jboot.customizing.listener.ApplicationEnvironmentPreparedListener;
+import org.lenic.jboot.customizing.listener.ApplicationPreparedListener;
+import org.lenic.jboot.customizing.listener.ApplicationStartedListener;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.context.ConfigurableApplicationContext;

@@ -1,4 +1,4 @@
-package org.lenic.jsamples.springboot.customizing.generator;
+package org.lenic.jboot.customizing.generator;
 
 import org.springframework.boot.ExitCodeGenerator;
 

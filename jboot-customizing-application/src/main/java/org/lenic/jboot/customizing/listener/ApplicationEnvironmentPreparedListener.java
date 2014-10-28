@@ -1,4 +1,4 @@
-package org.lenic.jsamples.springboot.customizing.listener;
+package org.lenic.jboot.customizing.listener;
 
 import org.apache.commons.lang.builder.ToStringBuilder;
 import org.slf4j.Logger;

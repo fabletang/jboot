@@ -1,4 +1,4 @@
-package org.lenic.jsamples.springboot.customizing.initializer;
+package org.lenic.jboot.customizing.initializer;
 
 import org.apache.commons.lang.builder.ToStringBuilder;
 import org.slf4j.Logger;
