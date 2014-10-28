@@ -22,6 +22,6 @@
 		<module>jboot-properties-application</module>
 		<module>jboot-logging-application</module>
 		<module>jboot-webmvc-application</module>
-		<module>jboot-response-application</module>
+		<module>jboot-mulitviews-application</module>
 	</modules>
 </project>
