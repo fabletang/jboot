@@ -17,8 +17,8 @@ public class ContactController {
 		return Arrays.asList(new Contact("张三", "13312341234"), new Contact("李四", "13945672345"));
 	}
 
-	@RequestMapping("/contact.ftl")
-	public ModelAndView contactFtl() {
+	@RequestMapping("/contact.html")
+	public ModelAndView contactHtml() {
 		List<Contact> contacts = Arrays.asList(new Contact("张三", "13312341234"), new Contact("李四", "13945672345"));
 		return new ModelAndView("contact", "contactList", contacts);
 	}

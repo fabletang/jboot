@@ -35,6 +35,8 @@ public class Application extends WebMvcConfigurerAdapter {
 
 	@Override
 	public void configureContentNegotiation(ContentNegotiationConfigurer configurer) {
+//		configurer.favorPathExtension(false);
+//		configurer.ignoreAcceptHeader(false);
 		configurer.favorPathExtension(true);
 		configurer.ignoreAcceptHeader(true);
 		configurer.useJaf(false);

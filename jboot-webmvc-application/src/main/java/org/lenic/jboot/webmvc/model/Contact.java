@@ -1,9 +1,5 @@
 package org.lenic.jboot.webmvc.model;
 
-import javax.xml.bind.annotation.XmlElement;
-import javax.xml.bind.annotation.XmlRootElement;
-
-@XmlRootElement
 public class Contact {
 
 	private String	name;
@@ -19,7 +15,6 @@ public class Contact {
 		this.mobile = mobile;
 	}
 
-	@XmlElement
 	public String getName() {
 		return name;
 	}
@@ -28,7 +23,6 @@ public class Contact {
 		this.name = name;
 	}
 
-	@XmlElement
 	public String getMobile() {
 		return mobile;
 	}
