@@ -24,5 +24,6 @@
 		<module>jboot-webmvc-application</module>
 		<module>jboot-multiviews-application</module>
 		<module>jboot-servlet-application</module>
+		<module>jboot-jdbc-application</module>
 	</modules>
 </project>
