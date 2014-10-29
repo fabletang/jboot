@@ -23,5 +23,6 @@
 		<module>jboot-logging-application</module>
 		<module>jboot-webmvc-application</module>
 		<module>jboot-multiviews-application</module>
+		<module>jboot-servlet-application</module>
 	</modules>
 </project>
