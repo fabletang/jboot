@@ -1,4 +1,4 @@
-package org.lenic.jboot.servlet;
+package org.lenic.jboot.jdbc;
 
 import java.util.Date;
 import java.util.List;
