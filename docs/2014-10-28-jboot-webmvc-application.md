@@ -193,4 +193,4 @@ static.txt in classpath:/static
 
 ![](../resources/2014-10-28-jboot-webmvc-application/4.jpg)
 
-*  OK，知道了M-V-C和静态资源的使用，下一篇我们将着重分享[在spring-boot中如何支持多种视图和数据的输出](2014-10-28-jboot-mulitviews-application.md)
+*  OK，知道了M-V-C和静态资源的使用，下一篇我们将着重分享[<在spring-boot中如何支持多种视图和数据的输出>](2014-10-28-jboot-multiviews-application.md)
