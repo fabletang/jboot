@@ -1,4 +1,4 @@
-#在spring-boot使用jdbc访问数据库
+#在spring-boot中使用jdbc访问数据库
 
 本文通过一个留言板程序演示了在spring-boot应用jdbc访问数据库
 
