@@ -67,9 +67,10 @@ public class Application {
 
 		@Override
 		protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-			resp.getWriter().write("hi, spring-boot, this is a servlet");
-			resp.getWriter().write("req.getCharacterEncoding() = " + req.getCharacterEncoding());
-			resp.getWriter().write("resp.getCharacterEncoding() = " + resp.getCharacterEncoding());
+			resp.setContentType("text/html");
+			resp.getWriter().write("hi, spring-boot, this is a servlet<br/>");
+			resp.getWriter().write("req.getCharacterEncoding() = " + req.getCharacterEncoding() + "<br/>");
+			resp.getWriter().write("resp.getCharacterEncoding() = " + resp.getCharacterEncoding() + "<br/>");
 			resp.getWriter().flush();
 		}
 	}
