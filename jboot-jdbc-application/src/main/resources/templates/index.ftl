@@ -38,5 +38,5 @@
 		<script type="text/javascript">
 			document.getElementById('author').focus();
 		</script>
-	</body> 
-</html> 
+	</body>
+</html>
