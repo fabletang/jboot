@@ -29,7 +29,7 @@ public class ApplicationIntegrationTests {
 		List<HttpMessageConverter<?>> messageConverters = new ArrayList<HttpMessageConverter<?>>();
 		messageConverters.add(new StringHttpMessageConverter(Charset.forName("UTF-8")));
 		RestTemplate template = new RestTemplate(messageConverters);
-		ResponseEntity<String> response = template.getForEntity("http://localhost:9000/ctx/index", String.class);
+		ResponseEntity<String> response = template.getForEntity("http://localhost:8080/index", String.class);
 		assertEquals(200, response.getStatusCode().value());
 		assertTrue(response.getBody().contains("hi, spring-boot, this is a servlet"));
 	}

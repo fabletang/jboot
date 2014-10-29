@@ -1,7 +1,6 @@
 package org.lenic.jboot.servlet;
 
 import java.io.IOException;
-import java.util.concurrent.TimeUnit;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
@@ -10,14 +9,11 @@ import javax.servlet.http.HttpServletResponse;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
-import org.springframework.boot.context.embedded.ConfigurableEmbeddedServletContainer;
-import org.springframework.boot.context.embedded.EmbeddedServletContainerCustomizer;
 import org.springframework.boot.context.embedded.FilterRegistrationBean;
 import org.springframework.boot.context.embedded.ServletRegistrationBean;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.stereotype.Component;
 import org.springframework.web.filter.CharacterEncodingFilter;
 
 @Configuration
@@ -27,16 +23,6 @@ public class Application {
 
 	public static void main(String[] args) {
 		SpringApplication.run(Application.class, args);
-	}
-
-	@Component
-	public static class CustomizationBean implements EmbeddedServletContainerCustomizer {
-		@Override
-		public void customize(ConfigurableEmbeddedServletContainer container) {
-			container.setPort(9000);
-			container.setContextPath("/ctx");
-			container.setSessionTimeout(30, TimeUnit.MINUTES);
-		}
 	}
 
 	@Bean(name = "characterEncodingFilter")
