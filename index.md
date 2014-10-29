@@ -4,3 +4,4 @@
 *  [[2014-10-28] 在spring-boot应用中使用logger记录日志](docs/2014-10-28-jboot-logging-application.md)
 *  [[2014-10-28] 使用spring-boot创建SpringMVC应用](docs/2014-10-28-jboot-webmvc-application.md)
 *  [[2014-10-28] 创建支持JSON,XML,HTML多视图的SpringMVC应用](docs/2014-10-28-jboot-multiviews-application.md)
+*  [[2014-10-29] 在spring-boot使用servlet和filter](docs/2014-10-29-jboot-servlet-application.md)
