@@ -7,3 +7,4 @@
 *  [[2014-10-29] 在spring-boot中使用servlet和filter](docs/2014-10-29-jboot-servlet-application.md)
 *  [[2014-10-29] 在spring-boot中使用jdbc访问数据库](docs/2014-10-29-jboot-jdbc-application.md)
 *  [[2014-10-29] 在spring-boot中使用mybatis访问数据库](docs/2014-10-29-jboot-mybatis-application.md)
+*  [[2014-10-29] 使用Apache Shiro保护spring-boot应用](docs/2014-10-29-jboot-shiro-application.md)
