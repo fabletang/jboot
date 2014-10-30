@@ -153,3 +153,5 @@ user.lenic = 123456,guest
 ![](../resources/2014-10-29-jboot-shiro-application/1.jpg)
 ![](../resources/2014-10-29-jboot-shiro-application/2.jpg)
 ![](../resources/2014-10-29-jboot-shiro-application/3.jpg)
+
+*  OK，可以运行看看效果了
