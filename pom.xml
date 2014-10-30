@@ -26,5 +26,6 @@
 		<module>jboot-servlet-application</module>
 		<module>jboot-jdbc-application</module>
 		<module>jboot-mybatis-application</module>
+		<module>jboot-shiro-application</module>
 	</modules>
 </project>
